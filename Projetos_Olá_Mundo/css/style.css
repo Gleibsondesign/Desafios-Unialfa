@@ -1,0 +1,133 @@
+body {
+    background: white;
+    margin:0%;
+    font-family: cursive, verdana;
+
+}
+header {                     
+    width: 100%;
+    background: rgb(55, 117, 55);
+    display: inline-block;
+    margin: 0%;
+    box-shadow: 0 0 60px black;
+}
+
+header a{
+    float: left;
+}
+
+header img{
+    width: 200px;
+}
+
+nav {
+    float: right;
+    width: 900px;
+    text-align: right; 
+}
+nav ul li{
+    display: inline-block;
+    margin: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform:capitalize;
+}
+
+nav ul li a:hover{
+    background: black;
+    transition: 3s;
+    font-size: 20px;
+}
+    
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card{
+      width: 100%;
+      display: inline-grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      box-shadow: 0 0 20px black;
+      text-align: center;
+      padding: 2%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: lightgrey;
+}
+
+.card-body{
+    width: 200px;
+    text-align:center;
+}
+.card-img-top{
+    width: 200px;
+}
+
+.destak{
+    color:red;
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+
+.card1 {
+      width: 100%;
+      display: inline-grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      box-shadow: 0 0 20px black;
+      text-align: center;
+      padding: 2%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: lightgrey;
+}
+
+.card-body1 {
+    width: 200px;
+    text-align:center;
+}
+
+.card-img-top1 {
+    width: 300px;
+}
+
+footer {
+    width: 100%;
+    float: right;
+    text-align: right;
+    background: green;
+    color: white;
+    margin: 0%;
+}
+ footer img{
+    width: 200px;
+    float:none
+ }
+
+ .btn-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(255, 255, 255, 0.15);
+    --bs-btn-border-color:#198754;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #c6c7c8;
+ }
+ .btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:#157347;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #198754;
+ }
+.btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #0d6efd;
+        --bs-btn-border-color: #0d6efd;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #0b5ed7;
+        --bs-btn-hover-border-color: #0a58ca;
+}
